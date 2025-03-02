@@ -34,7 +34,7 @@ After small amount of time I realized that the problem is that Tailwind compile 
 The reason for that is partially highlighted in this [issue](https://github.com/dotnet/aspnetcore/issues/33861) 
 and together with other mentioned there documentation that gives a full picture. 
 `dotnet watch` bypasses MSBuild most of the time and injects changes directly into your .NET host. 
-It also has integration with your browser with injecting some middleware into aspnet pipeline. 
+It also has integration with your browser with injecting some middleware into middleware pipeline. 
 
 Having the Tailwind was already a win but without constant hot reload you have to start two terminals and run two watch commands: one for the .NET app and one for tailwind.
 That is completely not perfect. So I decided why not to fix it.
@@ -69,6 +69,7 @@ public class TailwindHotReloadService : BackgroundService
     {
         Console.WriteLine("Updating application");
     }
+}
 ```
 
 The code just works, my app is notified and that is nice. Now I can run tailwind compile command with something like: 
@@ -78,9 +79,9 @@ Process.Start(fileName: "npx", arguments: "@tailwindcss/cli -i ./app.css -o ./ww
 ```
 
 Not exactly! At first, it is not a terminal so `npx` must become `npx.cmd` on Windows and something other on Linux and MacOS.
-and the second, it is not triggered when `css` files are changed! Although, `css` is watched according to `<Watch.../>` tag.
+and the second, it is not triggered when `css` files are changed! Although, `css` is watched according to `<Watch.../>` definition.
 
-I though "OK, challenge accepted". I checked how Microsoft watches for changes, thanks .NET is open sourced, they just use FileSystemWatcher.
+I though "OK, challenge accepted". I checked how Microsoft watches for changes, thanks .NET is open sourced, they just use `FileSystemWatcher`.
 
 Then let's utilize another feature of .NET - Channels, I wanted to test them once in any case and that looks like a good use case, 
 let's add `FileSystemWatcher` and `BackgroundService`, some flavor of protective programming and wrappers for testability. Done!

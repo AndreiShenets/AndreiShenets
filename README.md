@@ -11,7 +11,7 @@ I love challenges and solving complex problems.
 # Posts
 
 ## Blazor + Tailwind CSS
-[medium.com](https://medium.com/@shenets.andrei/blazor-tailwind-css-b4e1f0a8f3e8) or 
+[medium.com](https://medium.com/@shenets.andrei/integrating-tailwind-css-in-blazor-with-hot-reload-a8a1d043dc81) or 
 [GitHub](./blazor-tailwindcss/README.md)
 
 describes how to set up Tailwind CSS for Blazor in the way to utilize power of `dotnet watch` and hot reload.
