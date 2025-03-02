@@ -85,7 +85,7 @@ I though "OK, challenge accepted". I checked how Microsoft watches for changes, 
 Then let's utilize another feature of .NET - Channels, I wanted to test them once in any case and that looks like a good use case, 
 let's add `FileSystemWatcher` and `BackgroundService`, some flavor of protective programming and wrappers for testability. Done!
 
-[Source code](./SolutionExample/src/Blazor.Server/TailwindHotReloadService.cs)
+[Source code](https://github.com/AndreiShenets/AndreiShenets/tree/main/blazor-tailwindcss/SolutionExample/src/Blazor.Server/TailwindHotReloadService.cs)
 ```csharp
 #if DEBUG
 
@@ -313,4 +313,4 @@ Because the code is not perfect, there might be issues with it. I know about at 
 - The hot reload is not instant. It takes sometime taking in account debouncing interval and all check intervals to reload the page. 
   But it is much faster than restarting the app.
 
-There is a small fully working [SolutionExample](./SolutionExample) to test it. Feel free to use it in your projects. PRs for improvements are welcome.
+There is a small fully working [SolutionExample](https://github.com/AndreiShenets/AndreiShenets/tree/main/blazor-tailwindcss/SolutionExample) to test it. Feel free to use it in your projects. PRs for improvements are welcome.
