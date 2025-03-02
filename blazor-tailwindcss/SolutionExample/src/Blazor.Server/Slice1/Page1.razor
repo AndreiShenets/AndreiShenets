@@ -1,0 +1,13 @@
+﻿@page "/"
+@page "/page1"
+
+@code {
+    [Inject] TimeProvider TimeProvider { get; set; } = null!;
+}
+
+<Loading />
+
+<div class="flex flex-col justify-center items-center h-full">
+    <h3>Page 1</h3>
+    <div>Current time: @TimeProvider.GetUtcNow()</div>
+</div>

@@ -1,0 +1,34 @@
+﻿{
+  TailwindProcessCallCount: 1,
+  LogRecords: [
+    {
+      Level: Error,
+      State: [
+        {
+          Command: npx.cmd @tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css
+        },
+        {
+          ProcessExitCode: 1234
+        },
+        {
+          {OriginalFormat}: '{Command}' finished with non-zero exit code '{ProcessExitCode}'
+        }
+      ],
+      StructuredState: [
+        {
+          Command: npx.cmd @tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css
+        },
+        {
+          ProcessExitCode: 1234
+        },
+        {
+          {OriginalFormat}: '{Command}' finished with non-zero exit code '{ProcessExitCode}'
+        }
+      ],
+      Message: 'npx.cmd @tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css' finished with non-zero exit code '1234',
+      Category: Blazor.Server.TailwindHotReloadService,
+      LevelEnabled: true,
+      Timestamp: DateTimeOffset_1
+    }
+  ]
+}
