@@ -1,0 +1,35 @@
+﻿{
+  InitialTimeout: 00:00:10,
+  TailwindProcessCallCount: 2,
+  LogRecords: [
+    {
+      Level: Error,
+      State: [
+        {
+          Command: npx.cmd @tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css
+        },
+        {
+          Timeout: 00:00:01
+        },
+        {
+          {OriginalFormat}: The command '{Command}' has timed out after {Timeout}. Killing!
+        }
+      ],
+      StructuredState: [
+        {
+          Command: npx.cmd @tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css
+        },
+        {
+          Timeout: 00:00:01
+        },
+        {
+          {OriginalFormat}: The command '{Command}' has timed out after {Timeout}. Killing!
+        }
+      ],
+      Message: The command 'npx.cmd @tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css' has timed out after 00:00:01. Killing!,
+      Category: Blazor.Server.TailwindHotReloadService,
+      LevelEnabled: true,
+      Timestamp: DateTimeOffset_1
+    }
+  ]
+}

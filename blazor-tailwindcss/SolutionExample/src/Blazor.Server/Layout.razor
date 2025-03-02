@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Blazor Server + Tailwind CSS</PageTitle>
+
+<div class="grid grid-rows-[auto_1fr] w-screen h-screen max-h-screen max-w-screen">
+    <header class="h-16 bg-white border-b-1 w-screen max-w-screen">
+        <div class="grid grid-cols-[1fr_auto] gap-2">
+            <nav class="h-16 flex flex-row gap-2 items-center">
+                <div class="app-logo"></div>
+                <div class="text-3xl text-app-blue font-semibold mr-4">APP NAME</div>
+                <NavLink href="/page1" Match="NavLinkMatch.Prefix">Page 1</NavLink>
+                <NavLink href="/page2" Match="NavLinkMatch.Prefix">Page 2</NavLink>
+            </nav>
+            <div class="flex flex-col items-center justify-center mr-5">
+                <span>User Name</span>
+                <span>Additional info</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-screen max-w-screen h-[calc(100vh-4rem)] max-h-[calc(100vh-4rem)]">
+        @Body
+    </main>
+</div>

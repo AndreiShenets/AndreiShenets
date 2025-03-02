@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@config "./tailwind.config.mjs";
+
+@theme {
+    --color-app-blue: #0303B8;
+    --default-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+    html {
+        overflow-x: hidden;
+    }
+
+    html, body, main {
+        @apply bg-gray-100;
+    }
+
+    input, select {
+        height: 2rem;
+    }
+
+    h1 {
+        @apply text-4xl;
+    }
+
+    h2 {
+        @apply text-3xl;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+
+    [data-tooltip]:hover::after {
+        display: block;
+        position: absolute;
+        content: attr(data-tooltip);
+        white-space: pre;
+
+        text-align: center;
+        padding: 0.25rem 0.75rem;
+        border-radius: 0.5rem;
+        z-index: 100;
+
+        @apply bg-gray-600;
+        @apply text-white;
+    }
+
+    header .app-logo {
+        background-image: url('logo.svg');
+        height: 100%;
+        transform: scale(0.8);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        aspect-ratio: 2;
+    }
+
+    nav {
+        height: 4rem;
+        line-height: 4rem;
+
+        a {
+            margin: 0 0.5rem;
+            padding: 0 1rem;
+            text-decoration: none;
+            @apply text-app-blue;
+            white-space: nowrap;
+        }
+
+        a.active {
+            @apply border-b-4 border-app-blue;
+        }
+    }
+
+    .text-danger { @apply text-red-500; }
+}
+
+@layer components {
+    #blazor-error-ui {
+        background: lightyellow;
+        bottom: 0;
+        box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+        display: none;
+        left: 0;
+        padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+
+        & .dismiss {
+            cursor: pointer;
+            position: absolute;
+            right: 0.75rem;
+            top: 0.5rem;
+        }
+    }
+}
