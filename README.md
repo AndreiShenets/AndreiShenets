@@ -8,9 +8,16 @@ If you have me in your team then you have the person who cares about things, ens
 
 I love challenges and solving complex problems.
 
-# Medium posts
+# Posts
 
-[Code style holy wars (medium.com)](https://medium.com/@shenets.andrei/code-style-holy-wars-3df5896c22e5)  
-[Code style holy wars (GitHub)](./code-style-holy-wars/README.md)
+## Blazor + Tailwind CSS
+[medium.com](https://medium.com/@shenets.andrei/blazor-tailwind-css-b4e1f0a8f3e8) or 
+[GitHub](./blazor-tailwindcss/README.md)
+
+describes how to set up Tailwind CSS for Blazor in the way to utilize power of `dotnet watch` and hot reload.
+
+## Code style holy wars
+[medium.com](https://medium.com/@shenets.andrei/code-style-holy-wars-3df5896c22e5) or 
+[GitHub](./code-style-holy-wars/README.md)
 
 describes my thoughts regarding principles that should be put into any code style of any programming language. And the key point why the principles should be used.
