@@ -313,4 +313,4 @@ Because the code is not perfect, there might be issues with it. I know about at 
 - The hot reload is not instant. It takes sometime taking in account debouncing interval and all check intervals to reload the page. 
   But it is much faster than restarting the app.
 
-There is a small fully working [SolutionExample](https://github.com/AndreiShenets/AndreiShenets/tree/main/blazor-tailwindcss/SolutionExample) to test it. Feel free to use it in your projects. PRs for improvements are welcome.
+There is a small fully working [SolutionExample](https://github.com/AndreiShenets/AndreiShenets/tree/main/blazor-tailwindcss/SolutionExample) to test it. Feel free to use it in your projects. Improvements are welcome.
