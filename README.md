@@ -10,7 +10,7 @@ I love challenges and solving complex problems.
 
 # Posts
 
-## Blazor + Tailwind CSS
+## Blazor + Tailwind CSS + Hot Reload
 [medium.com](https://medium.com/@shenets.andrei/integrating-tailwind-css-in-blazor-with-hot-reload-a8a1d043dc81) or 
 [GitHub](./blazor-tailwindcss/README.md)
 
