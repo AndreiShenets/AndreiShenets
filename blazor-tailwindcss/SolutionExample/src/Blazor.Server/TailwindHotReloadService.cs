@@ -20,7 +20,7 @@ public class TailwindHotReloadService : BackgroundService
 {
     private static readonly string Executable;
     private const string Args = "@tailwindcss/cli -i ./app.css -o ./wwwroot/styles.css";
-    private static readonly string Command;
+    protected static string Command;
 
     private static Channel<DateTimeOffset> RebuildNotificationChannel { get; } =
         Channel.CreateBounded<DateTimeOffset>(

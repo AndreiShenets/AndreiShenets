@@ -183,6 +183,11 @@ public class TailwindHotReloadServiceTest
 /// </summary>
 public sealed class TailwindHotReloadServiceAccessor : TailwindHotReloadService
 {
+    static TailwindHotReloadServiceAccessor()
+    {
+        Command = Command.Replace("npx.cmd", "npx");
+    }
+    
     private readonly IProcess _tailwindProcess;
 
     public int TailwindProcessCallCount { get; private set; }
