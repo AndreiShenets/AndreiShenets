@@ -43,7 +43,7 @@ public class TailwindHotReloadService : BackgroundService
         }
         else
         {
-            Executable = "npx"; // Not confirmed that it works on Linux or MaxOS. To be improved.
+            Executable = "npx"; // Not confirmed that it works on Linux or MacOS. To be improved.
         }
 
         Command = $"{Executable} {Args}";
