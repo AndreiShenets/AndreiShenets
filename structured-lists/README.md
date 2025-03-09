@@ -14,7 +14,9 @@ Out of that came the idea of Structured List approach. So what is it?
 
 Structured List is a convention of how to describe ideas and thoughts. That's' it. The name might be not the best one, because there are a lot of other meaning of Structured List with different meanings in the Internet, but it describes the core idea.
 
-P.S. The more or less good instrument that I found much later and that allows to draw something quickly and be able to edit later is [Excalidraw](https://excalidraw.com/). At the same time, I can use Structured Lists approach inside of Excalidraw to add text details.
+Structured List is not a silver bullet but a good instrument to be used alone for an appropriate purpose or in combination with other instruments.
+
+P.S. The more or less good drawing instrument that I found much later and that allows to draw something quickly and be able to edit later is [Excalidraw](https://excalidraw.com/). Structured Lists can be combined with it perfectly for short text descriptions.
 
 ## The Convention
 
