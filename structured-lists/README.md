@@ -93,7 +93,7 @@ What if an assumption is not confirmed? We can use `-` sign. But wait, we alread
 - Thought 3
 ```
 
-What if I need to describe pros and cons? We can use `+` plus and `-` minus signs. But wait! We already use `-`! Here came the thought that using minus for describing list items might be not a good idea. The solution is either use `*` as in markdown, use `.` as for `statement` or use ... `<nothing>`. Wait what? Remember, I mentioned in the beginning that I am a huge fan of Visual Thinking? Principles of Visual Thinking that are described in the article are Size, Proximity and Alignment. Let's use the ideas.
+What if I need to describe pros and cons? We can use `+` plus and `-` minus signs. But wait! We already use `-`! Here came the thought that using minus for describing list items might be not a good idea. The solution is either use `*` as in markdown, use `.` as for `statement` or use ... `<nothing>`. Wait, what? Remember, I mentioned in the beginning that I am a huge fan of Visual Thinking? Principles of Visual Thinking that are described in the article are Size, Proximity and Alignment. Let's use the ideas.
 
 ```
 * Thought 1
@@ -231,4 +231,4 @@ Words that I usually uses are: `Assumptions`, `Questions`, `Cons`, `Pros`, `Inpu
 
 ## Instead of a conclusion
 
-Having in your arsenal useful instruments is a great thing. Structured Lists give you an additional, simple, powerful, extensible, maybe situational instrument to achieve your goals. So use it if you think it is worth it. It doesn't need any special training or tool support. Just use obvious and self-explanatory convention and you are good to go.
+Having in your arsenal useful instruments is great. Structured Lists give you an additional, simple, powerful, extensible, maybe situational instrument to achieve your goals and help you to plan or describe things in a structured way. So use it if you think it is worth it. It doesn't need any special training or tool support. Just use obvious and self-explanatory convention, be creative and you are good to go.

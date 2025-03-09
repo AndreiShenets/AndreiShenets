@@ -11,7 +11,7 @@ I love challenges and solving complex problems.
 # Posts
 
 ## Structured Lists
-[medium.com](https://medium.com/@shenets.andrei/structured-lists-a-convention-of-how-to-describe-ideas-and-thoughts-b8e9f5f3c7e8) or 
+[medium.com](https://medium.com/@shenets.andrei/structured-lists-fe6d871be286) or 
 [GitHub](./structured-lists/README.md)
 
 a small article about Structured Lists approach to describe ideas and thoughts that I often use.
