@@ -10,6 +10,12 @@ I love challenges and solving complex problems.
 
 # Posts
 
+## Structured Lists
+[medium.com](https://medium.com/@shenets.andrei/structured-lists-fe6d871be286) or 
+[GitHub](./structured-lists/README.md)
+
+a small article about Structured Lists approach to describe ideas and thoughts that I often use.
+
 ## Blazor + Tailwind CSS + Hot Reload
 [medium.com](https://medium.com/@shenets.andrei/integrating-tailwind-css-in-blazor-with-hot-reload-a8a1d043dc81) or 
 [GitHub](./blazor-tailwindcss/README.md)
