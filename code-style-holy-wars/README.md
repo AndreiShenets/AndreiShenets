@@ -72,7 +72,7 @@ So the brain cheating mechanism is actually an imperfectly implemented optimizat
 
 What helps a brain be move efficient? What characteristics of it should be taken in account in the principles? What do we know about coding process that can help to express the principles?
 
-Let me use a method I use when I need to analyze a lot of requirements and extract of them important, non-duplicated, good formulated and so on. I am placing all things in lists with some structure and nesting. I call them structured lists.
+Let me use a method I use when I need to analyze a lot of requirements and extract of them important, non-duplicated, good formulated and so on. I am placing all things in lists with some structure and nesting. I call them [structured lists](../structured-lists/README.md).
 
 #### Compacting and enriching the observations and axioms using structured list - iteration 1
 
