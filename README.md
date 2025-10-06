@@ -1,6 +1,6 @@
 # About me
 
-I am an enthusiastic Software Engineer, or Lead Cloud / Software Architect according to my current position.
+I am an enthusiastic Software Engineer and Architect.
 
 Core competencies are .NET, Architecture, Cloud, Team Leading where I have plenty of experience.
 
